@@ -1,0 +1,13 @@
+.home {
+  padding: 60px 0 0;
+  margin: 0 48px;
+  height: calc(100vh - 84px);
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    column-gap: 32px;
+    width: 100%;
+    height: 100%;
+  }
+}

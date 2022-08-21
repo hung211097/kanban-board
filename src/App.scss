@@ -1,0 +1,16 @@
+.app-content {
+  min-height: calc(100vh - 84px);
+  .ant-menu {
+    background: #16549a;
+    .ant-menu-item {
+      color: #fff;
+    }
+    .menu-item-active {
+      color: #16549a;
+    }
+  }
+}
+
+.ant-layout {
+  background-color: #fff;
+}

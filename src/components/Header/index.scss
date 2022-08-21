@@ -1,0 +1,39 @@
+.header {
+  background-color: #fff;
+  height: 64px;
+  padding: 0 16px;
+  border-bottom: 1px solid #ccc;
+}
+.header-inner {
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    h2 {
+      margin: 0;
+      margin-left: 16px;
+    }
+    .logo {
+      max-width: 40px;
+    }
+  }
+  .user-dropdown {
+    cursor: pointer;
+  }
+  .user {
+    margin-right: 24px;
+    .username {
+      margin: 0;
+      font-weight: 600;
+    }
+  }
+}
+
+.custom-dropdown {
+  border: 1px solid #ccc;
+  top: 50px !important;
+}

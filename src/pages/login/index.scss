@@ -1,0 +1,27 @@
+.login {
+  .login-wapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 450px;
+  }
+  h1 {
+    text-align: center;
+    color: #004991;
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  .ant-input {
+    font-size: 16px;
+  }
+
+  .email {
+    margin-bottom: 16px;
+  }
+}

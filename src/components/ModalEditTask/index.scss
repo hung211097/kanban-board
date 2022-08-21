@@ -1,0 +1,27 @@
+.modal-edit-task {
+  .ant-modal-header {
+    padding-left: 12px;
+  }
+  .modal-title {
+    p {
+      margin: 0;
+      font-size: 20px;
+    }
+    .input-title {
+      border: none;
+      width: 95%;
+      font-size: 18px;
+      &:focus {
+        border: 1px solid #d9d9d9;
+      }
+    }
+  }
+  .field-label {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    img {
+      margin-right: 6px;
+    }
+  }
+}
